@@ -8,7 +8,7 @@ defmodule JumpsTest do
     assert Enum.at(l, 0) == 0
   end
 
-  test "converts to integer" do
-
+  test "calculates correct" do
+    assert Jumps.part_1() == 373160
   end
 end
